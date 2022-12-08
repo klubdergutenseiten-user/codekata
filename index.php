@@ -19,7 +19,7 @@ echo 'Hey, my name is ' . $_GET['name'] . '<br>';
 // Task 3: given the input array with $fruits, please sort the array alphabetically and print the results
 // the result should be comma separated and look like: "apple, banana, lemon, pear"
 $fruits = array( 'banana', 'lemon', 'pear', 'apple' );
-
+echo $fruits[0];
 
 // Task 4: given the input array with $phonebook, shuffle the array randomly and print the first element of the
 // array, so that each time, the script is called, another name appears
